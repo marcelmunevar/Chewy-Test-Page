@@ -1,0 +1,67 @@
+body{font-family: 'Roboto', sans-serif;min-width:320px}
+h2{text-align:center;font-weight:100;font-size:2.5em;}
+h3{font-weight:100;font-size:1.8em;color:#128ced}
+p{color: #5F5F5F;}
+.clear{clear:both;}
+.page-content-container{max-width:956px;margin:auto;padding:15px;}
+
+.fun-facts-ul{margin-top:0px}
+.our-promise-ul{margin-top:50px;}
+.fun-facts-ul, .our-promise-ul {
+    padding: 0;
+    list-style: none;
+    top: 0;
+}
+.fun-facts-ul li{float:left;width:19%;padding:0 3%;margin-bottom:15px;}
+.fun-facts-ul p{text-align:center}
+.fun-facts-ul .xl-text{font-size:60px;color:#5F5F5F}
+.fun-facts-ul .plus{font-size:20px;position:relative;top:-13px;}
+.fun-facts-ul .subtext{margin:auto;max-width:180px;}
+.fun-facts-ul .top-icons-sprite{
+    width:92px;height:67px;
+    background: url('https://marcelm.org/wp-content/uploads/2019/06/top-icons-sprite.gif');
+    background-repeat: no-repeat;
+    margin:auto;
+}
+.fun-facts-ul .top-icons-sprite.star{background-position: 0 0;}
+.fun-facts-ul .top-icons-sprite.business{background-position: -92px 0;}
+.fun-facts-ul .top-icons-sprite.headset{background-position: -184px 0;}
+.fun-facts-ul .top-icons-sprite.items{background-position: -276px 0;}
+
+.our-promise-ul img{
+    -webkit-box-shadow: 0px 31px 16px -17px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 31px 16px -17px rgba(204,204,204,1);
+    box-shadow: 0px 31px 16px -17px rgba(204,204,204,1);
+}
+
+.our-promise-ul li{margin-bottom:85px;}
+.our-promise-ul li .text-container{margin-left:100px;max-width:290px;float:left}
+
+/* Modern */
+.our-promise-ul li:odd img{float:right;}
+.our-promise-ul li:even img{float:left;}
+
+/* Legacy */
+.our-promise-ul li.odd img{float:right;}
+.our-promise-ul li.even img{float:left;}
+
+.our-promise-ul li.odd h3{}
+
+@media (max-width:998px) {
+    .fun-facts-ul li{margin:auto auto 40px;}
+    .our-promise-ul li .text-container{margin-left:25px;}
+}
+@media (max-width:870px) {
+    .our-promise-ul li {margin-bottom: 40px; }
+    .our-promise-ul li.odd img, .our-promise-ul li.even img{margin:auto;float:none;width:100%;}
+    .our-promise-ul li .text-container{max-width:none;margin-left:0;}
+
+}
+@media (max-width:768px) {
+    .fun-facts-ul li{margin:auto auto 40px;width:50%;padding:0;}
+
+}
+@media (max-width:460px) {
+    .fun-facts-ul li{margin:auto auto 55px;width:100%;}
+    .fun-facts-ul li p{margin:2px auto;}
+}
